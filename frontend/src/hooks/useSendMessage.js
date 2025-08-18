@@ -1,6 +1,7 @@
-import { useState } from "react";
-import useConversation from "../zustand/useConversation";
+import {useState} from "react";
 import toast from "react-hot-toast";
+import useConversation from "../store/useConversation.js";
+
 
 const useSendMessage = () => {
 	const [loading, setLoading] = useState(false);
