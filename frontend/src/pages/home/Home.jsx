@@ -1,6 +1,7 @@
 
-import Sidebar from "../../components/sidebar/Sidebar.jsx";
+
 import MessageContainer from "../../components/Messages/MessageContainer.jsx";
+import Sidebar from "../../components/Sidebar/Sidebar.jsx";
 
 const Home = () => {
 	return (
